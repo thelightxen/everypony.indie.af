@@ -1132,11 +1132,11 @@ html {
 
 /* resume page slider - highlights - end */
 :root {
-	--scrollbarBg: rgba(46,54,69, 0.8);
+	--scrollbarBg: rgba(46,54,69, 0.8)
 	--scrollbarThumb: rgba(210,210,210, 0.8);
 	--scrollbarWidth: 12px;
 	--scrollbarBorder: 3px solid var(--scrollbarBg);
-	--scrollbarThumbRadius: calc(var(--scrollbarWidth) / 2);
+	--scrollbarBorderRadius: calc(var(--scrollbarWidth) / 2);
 }
 
 .scroll {
