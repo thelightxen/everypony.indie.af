@@ -1136,6 +1136,7 @@ html {
 	--scrollbarThumb: rgba(210,210,210, 0.8);
 	--scrollbarWidth: 12px;
 	--scrollbarBorder: 3px solid var(--scrollbarBg);
+	--scrollbarThumbRadius: calc(var(--scrollbarWidth) / 2);
 }
 
 .scroll {
@@ -1149,7 +1150,6 @@ html {
 
 .scroll::-webkit-scrollbar-track {
 	background: var(--scrollbarBg);
-	border-radius: var(--scrollbarBorderRadius);
 }
 
 .scroll::-webkit-scrollbar-thumb {
