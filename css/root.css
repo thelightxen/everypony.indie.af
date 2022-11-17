@@ -1124,10 +1124,16 @@ html {
 	display: none;
 }
 
+
+:root{
+  scrollbar-color: rgba(210,210,210, 0.8) rgba(46,54,69, 0.8) !important;
+  scrollbar-width: thin !important;
+}
+
 /* resume page slider - highlights - end */
 :root {
-	--scrollbarBg: rgba(2, 142, 74, 1);
-	--scrollbarThumb: rgba(255, 255, 255, 0.8);
+	--scrollbarBg: rgba(46,54,69, 0.8);
+	--scrollbarThumb: rgba(210,210,210, 0.8);
 	--scrollbarWidth: 12px;
 	--scrollbarBorder: 3px solid var(--scrollbarBg);
 	--scrollbarBorderRadius: calc(var(--scrollbarWidth) / 2);
