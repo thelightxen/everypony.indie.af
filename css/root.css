@@ -1136,7 +1136,6 @@ html {
 	--scrollbarThumb: rgba(210,210,210, 0.8);
 	--scrollbarWidth: 12px;
 	--scrollbarBorder: 3px solid var(--scrollbarBg);
-	--scrollbarBorderRadius: calc(var(--scrollbarWidth) / 2);
 }
 
 .scroll {
