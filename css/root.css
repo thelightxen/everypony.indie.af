@@ -466,7 +466,8 @@ mark,
 }
 
 .rounded {
-	border-radius: 0.25rem !important;
+	/*border-radius: 0.25rem !important;*/
+	border-radius: 12px !important;
 }
 
 section {
