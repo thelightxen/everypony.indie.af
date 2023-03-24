@@ -12,6 +12,11 @@ vityabody {
 	color: #fff;
 }
 
+a.disabled {
+	pointer-events: none;
+	cursor: default;
+}
+
 .logo a,
 .logo a:link,
 .logo a:active,
