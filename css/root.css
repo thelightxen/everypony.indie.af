@@ -173,19 +173,19 @@ body.pageOther {
 }
 
 
-	body.pageOther .segment.other {
-		min-height: var(--masthead-size);
-		padding-top: 100px;
-		background: linear-gradient(rgba(49, 49, 49, 0.45), rgba(49, 49, 49, 0.45)), url("https://m.gjcdn.net/game-thumbnail/1280/607041.png"), #222;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		-webkit-box-shadow: inset 0 -25px 100px 0 rgb(0,0,0);
-		-moz-box-shadow: inset 0 -25px 100px 0 rgb(0,0,0);
-		box-shadow: inset 0 -25px 100px 0 rgb(0, 0, 0);
-		color: white;
-		border-bottom: unset;
-	}
+body.pageOther .segment.other {
+	min-height: var(--masthead-size);
+	padding-top: 100px;
+	background: linear-gradient(rgba(49, 49, 49, 0.45), rgba(49, 49, 49, 0.45)), url("https://thelightxen.github.io/everypony.indie.af/img/webp/thelightxen.webp"), #222;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-box-shadow: inset 0 -25px 100px 0 rgb(0,0,0);
+	-moz-box-shadow: inset 0 -25px 100px 0 rgb(0,0,0);
+	box-shadow: inset 0 -25px 100px 0 rgb(0, 0, 0);
+	color: white;
+	border-bottom: unset;
+}
 
 #masthead-hncod {
 	background: linear-gradient(rgba(49, 49, 49, 0.45), rgba(49, 49, 49, 0.45)), url("https://m.gjcdn.net/game-thumbnail/1280/607041.png"), #222;
