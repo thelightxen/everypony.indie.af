@@ -1056,11 +1056,11 @@ p.lead {
 	padding-right: 0;
 }
 
-	.ui.borderless.menu .header.item {
-		font-size: 18px;
-		font-weight: 400;
-		margin-left: -12px;
-	}
+.only-mobile.ui.borderless.menu .header.item {
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: -12px;
+}
 
 .ui.container.grid h1.ui.header {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
