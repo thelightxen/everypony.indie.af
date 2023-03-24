@@ -1059,7 +1059,7 @@ p.lead {
 .only-mobile.ui.borderless.menu .header.item {
 	font-size: 18px;
 	font-weight: 400;
-	margin-left: -12px;
+	/*margin-left: -12px;*/
 }
 
 .ui.container.grid h1.ui.header {
