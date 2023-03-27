@@ -1097,10 +1097,9 @@ p.lead {
 
 footer {
 	width: 100%;
-	padding-top: 20px;
 	margin-bottom: 0;
 	background-color: #111;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	margin-top: 64px;
 }
@@ -1108,6 +1107,29 @@ footer {
 footer p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #999;
+}
+
+.footer-items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-item {
+	display: inline
+}
+
+@media only screen and (max-width: 679px) {
+
+
+	.footer-items {
+		display: block;
+		padding-bottom: 20px;
+	}
+
+	.footer-item {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 p.lead {
