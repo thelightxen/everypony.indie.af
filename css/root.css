@@ -1095,17 +1095,13 @@ p.lead {
 	margin-top: 6px;
 }
 
-footer {
+.footer {
 	width: 100%;
 	padding-top: 20px;
-	padding-bottom: 20px;
 	margin-bottom: 0;
 	background-color: #111;
 	position: absolute;
 	bottom: 0;
-}
-
-.footer {
 	margin-top: 64px;
 }
 
