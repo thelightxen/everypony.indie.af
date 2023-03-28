@@ -1101,7 +1101,7 @@ footer {
 	background-color: #111;
 	position: relative;
 	bottom: 0;
-	margin-top: 64px;
+	padding-top: 20px;
 }
 
 footer p {
@@ -1115,7 +1115,7 @@ footer p {
 }
 
 .footer-item {
-	display: inline
+	display: inline;
 }
 
 @media only screen and (max-width: 679px) {
